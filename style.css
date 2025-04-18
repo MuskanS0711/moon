@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+/* }
+.main{
+    position: relative; */
+}
+.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #4c362d;
+    position: fixed;
+}
+.logo{
+    width: 20%;
+    color: antiquewhite;
+    font-size: 32px;
+}
+.tags{
+    width:25%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    background-image: url("./top-view-hot-chocolate-with-copy-space.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 99vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    padding-left:40px;
+}
+.hero h1{
+    font-size: 108px;
+    
+}
+.hero h3{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.about-us{
+    display: flex;
+    width: 100%;
+    padding: 50px 0px;
+    height: 100vh;
+    background-color: rgba(84,59,50,0.9);
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    text-align: justify;
+    padding: 50px;
+    color: bisque;
+}
+.about-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.mooncafe{
+    font-style: italic;
+    color: rgb(144 131 131);
+}
+.menu1{
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 100vh;
+    padding-top: 50px 0px;
+    background-color: #563c33;
+    padding-left: 30px;
+    font-size: 20px;
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    text-align: justify;
+    padding: 50px;
+    color: bisque;
+}   
