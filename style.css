@@ -2,25 +2,29 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    
-    
+    font-style: italic;   
 }
-/* .main{
-    position: relative;
-} */
-.menu{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
-    background-color: #4c362d;
-    position: fixed;
+.main{
+    background-color: #4f3025;
+    /* position: relative; */
+    }
+.pl{
+    padding-left: 50px;
 }
-.logo{
-    width: 20%;
+    .menu{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 40px;
+        background-color: #704535;
+        position: fixed;
+    }
+    .logo{
+        width: 20%;
     color: antiquewhite;
     font-size: 32px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
 }
 .tags{
     width:25%;
@@ -33,11 +37,11 @@
     color: white;
 }
 .hero{
-    background-image: url("./top-view-hot-chocolate-with-copy-space.jpg");
+    background-image: url(./WhatsApp\ Image\ 2025-04-18\ at\ 4.11.08\ PM.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 99vw;
+    /* width: 100vw; */
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -48,18 +52,23 @@
 }
 .hero h1{
     font-size: 108px;
-    
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+}
+.hero h2{
+    font-size: 70px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
 }
 .hero h3{
     font-size: 50px;
     padding-left: 20px;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
 }
 .about-us{
     display: flex;
-    width: 100%;
+    /* width: 100vw; */
     padding: 50px 0px;
     height: 100vh;
-    background-color: rgba(84,59,50,0.9);
+    background-color: #4f3025;
 }
 .about-text{
     display: flex;
@@ -79,18 +88,48 @@
 }
 .mooncafe{
     font-style: italic;
-    color: rgb(144 131 131);
+    color:#e9d846;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+
 }
 .menu1{
     display: flex;
     flex-direction: column;
-    width: 99vw;
     height: 100vh;
-    padding-top: 50px 0px;
-    background-color: #563c33;
-    padding-left: 30px;
+    padding-top: 85px;
+    background-color: #4f3025;
     font-size: 20px;
 
+}
+.menu1 h1{
+    color: #e9d846;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+}
+.M2{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+.A21{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    width: 20vw;
+}
+.B21{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    width: 20vw;
+}
+.C21{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    width: 20vw;
 }
 
 .heading{
@@ -98,23 +137,62 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
     text-align: justify;
     padding: 50px;
     color: bisque;
 }   
 a:hover{
-    color: black;
-    font-size: 32px;
+    color: white;
+    font-size: 20px;
     cursor:pointer;
 }
 
 .Res{
-    width: 99vw;
     height: 100vh;
-    padding: 80px 40px;
+    padding: 90px 40px;
+    background-color: #4f3025;
 }
 
+.Res h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e9d846;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+}
+
+.Res h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(7, 7, 7);
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    color: beige;
+}
+
+input{
+    border-radius: 5px;
+    background-color:#664537;
+    border: 1px white solid;
+    height: 3vh;
+}
+.res button{
+    border-radius: 5px;
+    background-color:#664537;
+    color: white;
+    border: 1px white solid;
+    height: 5vh;
+    width: 10vw;
+    margin-top: 20px;
+}
 footer{
     background-color: #000000;
     color: white;
@@ -122,7 +200,7 @@ footer{
     flex-direction: column;
     height: 55vh;
     justify-content: space-between;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 .f1{
     padding-left: 80px;
@@ -143,7 +221,7 @@ footer{
     margin-bottom: 10px;
 }
 
-.f3 button{
+.f3 button,.btn{
     padding: 10px 60px;
     background-color: #000000;
     color: white;
@@ -153,4 +231,16 @@ footer{
     border-top: 2px white solid;
     padding: 20px;
     text-align: center;
+}
+.mf{
+    display: flex;
+}
+.m1{
+    width: 50%;
+}
+.m2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
